@@ -1,7 +1,7 @@
 package rpc
 
 import (
-	"github.com/HydroProtocol/ethereum-watcher/blockchain"
+	"github.com/matiasnu/ethereum-watcher/blockchain"
 )
 
 type IBlockChainRPC interface {

@@ -3,13 +3,14 @@ package ethereum_watcher
 import (
 	"context"
 	"fmt"
-	"github.com/HydroProtocol/ethereum-watcher/blockchain"
-	"github.com/HydroProtocol/ethereum-watcher/plugin"
-	"github.com/HydroProtocol/ethereum-watcher/structs"
+	"testing"
+
 	"github.com/labstack/gommon/log"
+	"github.com/matiasnu/ethereum-watcher/blockchain"
+	"github.com/matiasnu/ethereum-watcher/plugin"
+	"github.com/matiasnu/ethereum-watcher/structs"
 	"github.com/shopspring/decimal"
 	"github.com/sirupsen/logrus"
-	"testing"
 )
 
 // todo why some tx index in block is zero?

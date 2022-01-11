@@ -1,4 +1,4 @@
-module github.com/HydroProtocol/ethereum-watcher
+module github.com/matiasnu/ethereum-watcher
 
 go 1.12
 

@@ -2,10 +2,11 @@ package ethereum_watcher
 
 import (
 	"context"
-	"github.com/HydroProtocol/ethereum-watcher/rpc"
-	"github.com/HydroProtocol/ethereum-watcher/structs"
-	"github.com/sirupsen/logrus"
 	"time"
+
+	"github.com/matiasnu/ethereum-watcher/rpc"
+	"github.com/matiasnu/ethereum-watcher/structs"
+	"github.com/sirupsen/logrus"
 )
 
 const DefaultStepSizeForBigLag = 10

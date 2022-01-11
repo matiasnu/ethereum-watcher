@@ -5,13 +5,14 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/HydroProtocol/ethereum-watcher/blockchain"
-	"github.com/HydroProtocol/ethereum-watcher/plugin"
-	"github.com/HydroProtocol/ethereum-watcher/rpc"
-	"github.com/HydroProtocol/ethereum-watcher/structs"
-	"github.com/sirupsen/logrus"
 	"sync"
 	"time"
+
+	"github.com/matiasnu/ethereum-watcher/blockchain"
+	"github.com/matiasnu/ethereum-watcher/plugin"
+	"github.com/matiasnu/ethereum-watcher/rpc"
+	"github.com/matiasnu/ethereum-watcher/structs"
+	"github.com/sirupsen/logrus"
 )
 
 type AbstractWatcher struct {

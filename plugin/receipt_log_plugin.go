@@ -1,8 +1,9 @@
 package plugin
 
 import (
-	"github.com/HydroProtocol/ethereum-watcher/structs"
 	"strings"
+
+	"github.com/matiasnu/ethereum-watcher/structs"
 )
 
 type IReceiptLogPlugin interface {

@@ -1,10 +1,11 @@
 package plugin
 
 import (
-	"github.com/HydroProtocol/ethereum-watcher/blockchain"
-	"github.com/HydroProtocol/ethereum-watcher/structs"
-	"github.com/shopspring/decimal"
 	"math/big"
+
+	"github.com/matiasnu/ethereum-watcher/blockchain"
+	"github.com/matiasnu/ethereum-watcher/structs"
+	"github.com/shopspring/decimal"
 )
 
 type ITxReceiptPlugin interface {
